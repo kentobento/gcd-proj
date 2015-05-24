@@ -11,12 +11,9 @@ RStudio 0.98.1102
 No additional dependencies
 
 ## Files
-* run_analysis.R  
-##### This script parses the original data and outputs a tidy data set named feature\_averages\_for\_subject_and\_activity.txt.  The UCI HAR Dataset directory must be in the same directory as this script.  The transformations used to clean the original data are detailed in CodeBook.md.
-* CodeBook.md  
-##### This markdown file describes the original data, the variables in the tidy data set, and the transformations that were performed on the original data to obtain the tidy data set.
-* feature\_averages\_for\_subject\_and\_activity.txt  
-##### This text file is the tidy data set (tidy because each measured variable is in one column and each different observation of that variable is in a different row) that run\_analysis.R outputs.  Each row of the file provides the averages of the mean-and-standard-deviation-related measurements for a test subject and activity.  Descriptions of its column variables are detailed in CodeBook.md.
+* **run\_analysis.R** - a script that parses the original data and outputs a tidy data set named feature\_averages\_for\_subject_and\_activity.txt.  The UCI HAR Dataset directory must be in the same directory as this script.  The transformations used to clean the original data are detailed in CodeBook.md.
+* **CodeBook.md** - a markdown file that describes the original data, the variables in the tidy data set, and the transformations that were performed on the original data to obtain the tidy data set.
+* **feature\_averages\_for\_subject\_and\_activity.txt**  - a tidy data set (tidy because each measured variable is in one column and each different observation of that variable is in a different row) that run\_analysis.R outputs.  Each row of the file provides the averages of the mean-and-standard-deviation-related measurements for a test subject and activity.  Descriptions of its column variables and loading instructions are detailed in CodeBook.md.
 
 ## Additional Notes
 ### Reading the Tidy Data Set
@@ -30,5 +27,4 @@ No additional dependencies
 4. Combine the test and training sets
 5. Label resulting set with descriptive names
 6. Create new data set with the average of each variable for each subject and activity
-7. Output tidy data set to file  
-##### For transformation steps with more detail, see CodeBook.md
+7. Output tidy data set to file
